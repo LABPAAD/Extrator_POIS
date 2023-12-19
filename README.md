@@ -1,8 +1,6 @@
 # Extrator_POIS
 Extrator de pontos de interesse em uma região do globo terrestre baseado no serviço Open Street Maps 
 
-<div style="width: 70%; margin: 0 auto; text-align: justify;">
-
 
 # Tutorial para o mapeamento de áreas com Open Street Maps
 
@@ -91,4 +89,3 @@ Para processar este comando no terminal Linux, siga os seguintes passos:
 
 6. Compartilhe uma sessão do `screen`: Para compartilhar uma sessão do `screen` com outro usuário, você precisará conceder permissão de acesso a ele. Você pode fazer isso definindo as permissões adequadas com os comandos `chmod` ou `chown`. Depois, informe ao usuário o identificador da sessão do `screen` e peça que ele se conecte usando o comando `screen -x`.
 
-</div>
