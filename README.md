@@ -55,9 +55,6 @@ Buscar no repositório Extrator_POIS/Codes/ e executar o notebook contagem_POIs.
 
 É recomendado ter o Anaconda instalado.
 
-## 4. Datasets
-
-O resultado da execução do código acima é o CSV com os Pontos de Interesses disponíveis em cada Departamento de Polícia mapeado no Open Street Maps.
 
 ## 5. Anexos 
 
