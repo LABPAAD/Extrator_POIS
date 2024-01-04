@@ -5,7 +5,6 @@ Extrator de pontos de interesse em uma região do globo terrestre baseado no ser
 # Tutorial para o mapeamento de áreas com Open Street Maps
 
 
-
 O seguinte tutorial apresenta os passos para a instalação de ferramentas necessárias para o mapeamento de uma determinada área geográfica utilizando o OpenStreetMap (as instruções seguintes são para o S.O Linux).
 
 ## 1. Instalação - Ferramentas
@@ -49,7 +48,7 @@ script_recorte.sh
 
 Com isso será feito o recorte de todas as áreas disponiveis no diretório /mapas.
 
-## 3. Contagem dos Pontos de Interesse 
+## 3. Contagem/Extração dos Pontos de Interesse 
 
 Buscar no repositório Extrator_POIS/Codes/ e executar o notebook contagem_POIs.ipynb.
 
