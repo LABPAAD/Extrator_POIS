@@ -5,6 +5,7 @@ Extrator de pontos de interesse em uma região do globo terrestre baseado no ser
 # Tutorial para o mapeamento de áreas com Open Street Maps
 
 
+
 O seguinte tutorial apresenta os passos para a instalação de ferramentas necessárias para o mapeamento de uma determinada área geográfica utilizando o OpenStreetMap (as instruções seguintes são para o S.O Linux).
 
 ## 1. Instalação - Ferramentas
@@ -54,9 +55,13 @@ Buscar no repositório Extrator_POIS/Codes/ e executar o notebook contagem_POIs.
 
 É recomendado ter o Anaconda instalado.
 
-## 4. Anexos 
+## 4. Datasets
 
-### 4.1 Como obter arquivo de saída sudeste.osm?
+O resultado da execução do código acima é o CSV com os Pontos de Interesses disponíveis em cada Departamento de Polícia mapeado no Open Street Maps.
+
+## 5. Anexos 
+
+### 5.1 Como obter arquivo de saída sudeste.osm?
 
 Primeiramente, baixe o **sudeste-latest.osm.pbf** [aqui.](http://download.geofabrik.de/south-america/brazil/sudeste.html). 
 
@@ -87,4 +92,3 @@ Para processar este comando no terminal Linux, siga os seguintes passos:
 5. Reconecte-se à sessão do "screen": Para se reconectar à sessão do "screen" posteriormente, digite o comando `screen -r` seguido do identificador da sessão. Se você tiver apenas uma sessão ativa, o "screen" reconectará automaticamente à sessão. Se tiver várias sessões ativas, use o comando `screen -ls` para listar todas as sessões e seus identificadores.
 
 6. Compartilhe uma sessão do `screen`: Para compartilhar uma sessão do `screen` com outro usuário, você precisará conceder permissão de acesso a ele. Você pode fazer isso definindo as permissões adequadas com os comandos `chmod` ou `chown`. Depois, informe ao usuário o identificador da sessão do `screen` e peça que ele se conecte usando o comando `screen -x`.
-
